@@ -3,7 +3,7 @@
 # FGVCx Fungi Classification Challenge
 Please open an issue if you have questions or problems with the dataset.
 
-# 2017 Competition
+# 2018 Competition
 The 2018 competition, sponsored by Svampe Atlas, is part of the [FGVC^4 workshop](http://fgvc.org) at [CVPR](http://cvpr2018.thecvf.com/).
 
 ## Kaggle
@@ -124,8 +124,8 @@ By downloading this dataset you agree to the following terms:
 1. You will abide by the [iNaturalist Terms of Service](https://www.inaturalist.org/pages/terms)
 2. You will use the data only for non-commercial research and educational purposes.
 3. You will NOT distribute the above images.
-4. The California Institute of Technology makes no representations or warranties regarding the data, including but not limited to warranties of non-infringement or fitness for a particular purpose.
-5. You accept full responsibility for your use of the data and shall defend and indemnify the California Institute of Technology, including its employees, officers and agents, against any and all claims arising from your use of the data, including but not limited to your use of any copies of copyrighted images that you may create from the data.
+4. The ? makes no representations or warranties regarding the data, including but not limited to warranties of non-infringement or fitness for a particular purpose.
+5. You accept full responsibility for your use of the data and shall defend and indemnify the ?, including its employees, officers and agents, against any and all claims arising from your use of the data, including but not limited to your use of any copies of copyrighted images that you may create from the data.
 
 ## Data
 
