@@ -1,4 +1,4 @@
-![Banner](https://rawgit.com/visipedia/inat_comp/master/assets/banner.jpg)
+![Banner](https://steemit-production-imageproxy-thumbnail.s3.amazonaws.com/DQmcu5iqy5qycEpxrnnb64XNMueSDAfNenyM9nHJsEgdpLo_1680x8400)
 
 # FGVCx Fungi Classification Challenge
 Please open an issue if you have questions or problems with the dataset.
@@ -133,3 +133,9 @@ By downloading this dataset you agree to the following terms:
 
 Download the dataset files here:
   * [Training and validation images [?GB]](https://svampe.databasen.org)
+      * Alternate links for different parts of the world:
+          * TBD 
+      * Running `md5sum` on the tar.gz file should produce `7c784ea5e424efaec655bd392f87301f  train_val_images.tar.gz`
+      * Images have a max dimension of 800px and have been converted to JPEG format
+      * Untaring the images creates a directory structure like `train_val_images/super category/category/image.jpg`. This may take a while.
+
