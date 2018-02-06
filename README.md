@@ -4,7 +4,7 @@
 Please open an issue if you have questions or problems with the dataset.
 
 # 2018 Competition
-The 2018 competition, sponsored by Svampe Atlas, is part of the [FGVC^4 workshop](http://fgvc.org) at [CVPR](http://cvpr2018.thecvf.com/).
+The 2018 competition, sponsored by Svampe Atlas, is part of the [FGVC^5 workshop](http://fgvc.org) at [CVPR](http://cvpr2018.thecvf.com/).
 
 ## Kaggle
 We are using Kaggle to host the leaderboard. Checkout the competition page [here](https://www.kaggle.com/).
