@@ -109,10 +109,27 @@ By downloading this dataset you agree to the following terms:
 (TBD) 
 
 Download the dataset files here:
-  * [Training and validation images [?GB]](https://svampe.databasen.org)
+  * [Training and validation images [13GB]](https://svampe.databasen.org)
       * Alternate links for different parts of the world:
           * TBD 
-      * Running `md5sum` on the tar.gz file should produce `7c784ea5e424efaec655bd392f87301f  train_val_images.tar.gz`
-      * Images have a max dimension of 800px and have been converted to JPEG format
-      * Untaring the images creates a directory structure like `train_val_images/super category/category/image.jpg`. This may take a while.
+      * Running `md5sum fungi_train_val.tgz` on the tgz file should produce `ebe7423426345539550f6f6b49a6c4d2`
+      * Images have a max dimension of 1024px and have been converted to JPEG format
+      * Untaring the images creates a directory structure like `images/category/image.jpg`. This may take a while.
+
+  * [Testing images [1.3GB]](https://svampe.databasen.org)
+      * Alternate links for different parts of the world:
+          * TBD 
+      * Running `md5sum fungi_test.tgz` on the tgz file should produce `949fc7266f7c6574e4ce359cf2571c85`
+      * Images have a max dimension of 1024px and have been converted to JPEG format
+      * Untaring the images creates a directory structure like `test/image.jpg`. This may take a while.
+
+  * [Training and validation annotations [2.9MB]](https://svampe.databasen.org)
+      * Alternate links for different parts of the world:
+          * TBD 
+      * Running `md5sum fungi2018_train_val_annotations.tgz` on the tgz file should produce `8ea7ef7768d3c5ed6d3ff8e52fac85ab'
+  
+  * [Testing image information [92KB]](https://svampe.databasen.org)
+      * Alternate links for different parts of the world:
+          * TBD 
+      * Running `md5sum fungi2018_test_information.tgz` on the tgz file should produce `e551267352eefc608d7da34abb7a1a0b`
 
