@@ -1,37 +1,26 @@
 ![Banner](https://raw.githubusercontent.com/visipedia/fgvcx_fungi_comp/master/assets/fungi_cover.jpg)
 
-# FGVCx Fungi Classification Challenge
+# 2018 FGVCx Fungi Classification Challenge
+The 2018 competition, sponsored by [Svampe Atlas](https://svampe.databasen.org/),is part of the [FGVC^5 workshop](https://sites.google.com/view/fgvc5/home) at [CVPR](http://cvpr2018.thecvf.com/).
+
 Please open an issue if you have questions or problems with the dataset.
 
-# 2018 Competition
-The 2018 competition, sponsored by Svampe Atlas, is part of the [FGVC^5 workshop](https://sites.google.com/view/fgvc5/home) at [CVPR](http://cvpr2018.thecvf.com/).
-
 ## Kaggle
-We are using Kaggle to host the leaderboard. Checkout the competition page [here](https://www.kaggle.com/).
+We are using Kaggle to host the leaderboard. Checkout the competition page [here](https://www.kaggle.com/c/fungi-challenge-fgvc-2018).
 
 ## Dates
 |||
 |------|---------------|
-Data Released|April 15, 2018|
-Submission Deadline|June 11, 2018|
-Winners Announced|June 18, 2018|
+Data Released|April 1, 2018|
+Submission Deadline|June 4, 2018|
+Winners Announced|June  22, 2018|
 
 ## Details
 
-(TBD)
-
-There are a total of 3,000 species in the dataset, with ? training images and ? validation images. For the training set, the distribution of images per category follows the observation frequency of that category by the ? community. Therefore, there is a non-uniform distribution of images per category. Example images, along with their unique [GBIF](http://www.gbif.org/) ID numbers, can be viewed [here](https://docs.google.com/spreadsheets/d/1JHn6J_9HBYyN5kaVrH1qcc3VMyxOsV2II8BvSwufM54).
-
-
-| Super Category |	Category Count	| Train Images |	Val Images |
-|------|---------------|-------------|---------------|
-Mushroom|0|0|0|
-|||||
-|Total|0|0|0|
-
+There are a total of 1,394 fungi species in the dataset, with 85,578 training images and 4,182 validation images. The testing set contains 9,758 images. All images are sourced from fungi species submitted in the Danish Svampe Atlas and example images can be viewed [here](https://svampe.databasen.org/).
 
 ## Evaluation
-We follow a similar metric to the classification tasks of the [ILSVRC](http://image-net.org/challenges/LSVRC/2016/index#scene). For each image <img src="https://rawgit.com/visipedia/inat_comp/master/svgs/77a3b857d53fb44e33b53e4c8b68351a.svg?invert_in_darkmode" align=middle width=5.642109pt height=21.60213pt/>, an algorithm will produce 5 labels <img src="https://rawgit.com/visipedia/inat_comp/master/svgs/655bedbaf4a65f397b5041d0fdecde4c.svg?invert_in_darkmode" align=middle width=15.601905pt height=22.74591pt/>, <img src="https://rawgit.com/visipedia/inat_comp/master/svgs/6d0aa77223bd2246e5cdd2a422d9e584.svg?invert_in_darkmode" align=middle width=82.4274pt height=21.60213pt/>. We allow 5 labels because some categories are disambiguated with additional data provided by the observer, such as latitude, longitude and date. It might also be the case that multiple categories occur in an image (e.g. a photo of a bee on a flower). For this competition each image has one ground truth label <img src="https://rawgit.com/visipedia/inat_comp/master/svgs/681a37b53b66acbc455e39ca3e6f1c41.svg?invert_in_darkmode" align=middle width=12.444795pt height=14.10255pt/>, and the error for that image is:
+We follow a similar metric to the classification tasks of the [ILSVRC](http://image-net.org/challenges/LSVRC/2016/index#scene). For each image <img src="https://rawgit.com/visipedia/inat_comp/master/svgs/77a3b857d53fb44e33b53e4c8b68351a.svg?invert_in_darkmode" align=middle width=5.642109pt height=21.60213pt/>, an algorithm will produce 3 labels <img src="https://rawgit.com/visipedia/inat_comp/master/svgs/655bedbaf4a65f397b5041d0fdecde4c.svg?invert_in_darkmode" align=middle width=15.601905pt height=22.74591pt/>, <img src="https://rawgit.com/visipedia/inat_comp/master/svgs/6d0aa77223bd2246e5cdd2a422d9e584.svg?invert_in_darkmode" align=middle width=82.4274pt height=21.60213pt/>. For this competition each image has one ground truth label <img src="https://rawgit.com/visipedia/inat_comp/master/svgs/681a37b53b66acbc455e39ca3e6f1c41.svg?invert_in_darkmode" align=middle width=12.444795pt height=14.10255pt/>, and the error for that image is:
 <p align="center"><img src="https://rawgit.com/visipedia/inat_comp/master/svgs/7a42826f81c53c77e0fef3c827238d25.svg?invert_in_darkmode" align=middle width=123.403665pt height=24.865665pt/></p>
 Where
 <p align="center"><img src="https://rawgit.com/visipedia/inat_comp/master/svgs/7a45c501d5042bd031a267f008fa2ae6.svg?invert_in_darkmode" align=middle width=190.2021pt height=49.13139pt/></p>
@@ -41,7 +30,7 @@ The overall error score for an algorithm is the average error over all <img src=
 
 ## Guidelines
 
-Participants are restricted to train their algorithms on FGVCx Fungi Challenge train and validation sets. Pretrained models may be used to construct the algorithms (e.g. ImageNet pretrained models) as long as participants do not actively collect additional data for the target categories of the iNaturalist 2017 competition. Please specify any and all external data used for training when uploading results.
+Participants are restricted to train their algorithms on 2018 FGVCx Fungi Classification competition train and validation sets. Pretrained models may be used to construct the algorithms (e.g. ImageNet pretrained models) as long as participants do not actively collect additional data for the target 2018 FGVCx Fungi Classification competition. Please specify any and all external data used for training when uploading results.
 
 The general rule is that we want participants to use only the provided training and validation images to train a model to classify the test images. We do not want participants crawling the web in search of additional data for the target categories. Participants should be in the mindset that this is the only data available for those categories.
 
