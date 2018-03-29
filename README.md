@@ -1,7 +1,7 @@
 ![Banner](https://raw.githubusercontent.com/visipedia/fgvcx_fungi_comp/master/assets/fungi_cover.jpg)
 
 # 2018 FGVCx Fungi Classification Challenge
-The 2018 competition, sponsored by [Svampe Atlas](https://svampe.databasen.org/), is part of the [FGVC^5 workshop](https://sites.google.com/view/fgvc5/home) at [CVPR](http://cvpr2018.thecvf.com/).
+The 2018 competition, sponsored by [SvGampe Atlas](https://svampe.databasen.org/), is part of the [FGVC^5 workshop](https://sites.google.com/view/fgvc5/home) at [CVPR](http://cvpr2018.thecvf.com/).
 
 Please open an issue if you have questions or problems with the dataset.
 
@@ -30,7 +30,7 @@ The overall error score for an algorithm is the average error over all <img src=
 
 ## Guidelines
 
-Participants are restricted to train their algorithms on 2018 FGVCx Fungi Classification competition train and validation sets. Pretrained models may be used to construct the algorithms (e.g. ImageNet pretrained models) as long as participants do not actively collect additional data for the target species in the 2018 FGVCx Fungi Classification competition. Please specify any and all external data used for training when uploading results.
+Participants are restricted to train their algorithms on the 2018 FGVCx Fungi Classification competition train and validation sets. Pretrained models may be used to construct the algorithms (e.g. ImageNet pretrained models) as long as participants do not actively collect additional data for the target species in the 2018 FGVCx Fungi Classification competition. Please specify any and all external data used for training when uploading results.
 
 The general rule is that we want participants to use only the provided training and validation images to train a model to classify the test images. We do not want participants crawling the web in search of additional data for the target categories. Participants should be in the mindset that this is the only data available for those categories.
 
@@ -89,22 +89,20 @@ license{
 The submission format for the Kaggle competition is a csv file with the following format:
 ```
 id,predicted
-12345,0 78 23 3 42
-67890,83 13 42 0 21
+12345, 23 3 42
+67890, 42 0 21
 ```
-The `id` column corresponds to the test image id. The `predicted` column corresponds to 5 category ids, separated by spaces. You should have one row for each test image.
+The `id` column corresponds to the test image id. The `predicted` column corresponds to 2 category ids, separated by spaces. You should have one row for each test image.
 
 ## Terms of Use
 
-(TBD)
-
 By downloading this dataset you agree to the following terms:
 
-1. You will abide by the [iNaturalist Terms of Service](https://www.inaturalist.org/pages/terms)
+1. You will abide by the [Danish Svampe Atlas Terms of Service](https://svampe.databasen.org/citation)
 2. You will use the data only for non-commercial research and educational purposes.
 3. You will NOT distribute the above images.
-4. The ? makes no representations or warranties regarding the data, including but not limited to warranties of non-infringement or fitness for a particular purpose.
-5. You accept full responsibility for your use of the data and shall defend and indemnify the ?, including its employees, officers and agents, against any and all claims arising from your use of the data, including but not limited to your use of any copies of copyrighted images that you may create from the data.
+4. The Danish Svampe Atlas makes no representations or warranties regarding the data, including but not limited to warranties of non-infringement or fitness for a particular purpose.
+5. You accept full responsibility for your use of the data and shall defend and indemnify the Danish Svampe Atlas, including its employees, officers and agents, against any and all claims arising from your use of the data, including but not limited to your use of any copies of copyrighted images that you may create from the data.
 
 ## Data
 
