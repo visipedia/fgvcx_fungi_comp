@@ -1,7 +1,8 @@
 ![Banner](https://raw.githubusercontent.com/visipedia/fgvcx_fungi_comp/master/assets/fungi_cover.jpg)
 
 # 2018 FGVCx Fungi Classification Challenge
-The 2018 competition, sponsored by [Svampe Atlas](https://svampe.databasen.org/), is part of the [FGVC^5 workshop](https://sites.google.com/view/fgvc5/home) at [CVPR](http://cvpr2018.thecvf.com/).
+The 2018 competition is part of the [FGVC^5 workshop](https://sites.google.com/view/fgvc5/home) at [CVPR](http://cvpr2018.thecvf.com/).
+Our sponsor, the [Svampe Atlas](https://svampe.databasen.org/), has provided a dataset from a carefully curated database containing over 100,000 fungi images. The Svampe Atlas has a comprehensive representation of nearly 1,500 wild mushrooms species which have been spotted and photographed by the general public in Denmark.
 
 Please open an issue if you have questions or problems with the dataset.
 
