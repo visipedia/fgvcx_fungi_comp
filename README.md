@@ -1,4 +1,4 @@
-![Banner](https://raw.githubusercontent.com/visipedia/fgvcx_fungi_comp/master/assets/fungi_cover_sm.jpg)
+![Banner](https://raw.githubusercontent.com/visipedia/fgvcx_fungi_comp/master/assets/fungi_cover.jpg)
 
 # FGVCx Fungi Classification Challenge
 Please open an issue if you have questions or problems with the dataset.
