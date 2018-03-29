@@ -1,7 +1,7 @@
 ![Banner](https://raw.githubusercontent.com/visipedia/fgvcx_fungi_comp/master/assets/fungi_cover.jpg)
 
 # 2018 FGVCx Fungi Classification Challenge
-The 2018 competition, sponsored by [SvGampe Atlas](https://svampe.databasen.org/), is part of the [FGVC^5 workshop](https://sites.google.com/view/fgvc5/home) at [CVPR](http://cvpr2018.thecvf.com/).
+The 2018 competition, sponsored by [Svampe Atlas](https://svampe.databasen.org/), is part of the [FGVC^5 workshop](https://sites.google.com/view/fgvc5/home) at [CVPR](http://cvpr2018.thecvf.com/).
 
 Please open an issue if you have questions or problems with the dataset.
 
