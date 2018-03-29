@@ -92,7 +92,7 @@ id,predicted
 12345, 23 3 42
 67890, 42 0 21
 ```
-The `id` column corresponds to the test image id. The `predicted` column corresponds to 2 category ids, separated by spaces. You should have one row for each test image.
+The `id` column corresponds to the test image id. The `predicted` column corresponds to 3 category ids, separated by spaces. You should have one row for each test image.
 
 ## Terms of Use
 
