@@ -107,8 +107,6 @@ By downloading this dataset you agree to the following terms:
 
 ## Data
 
-(TBD) 
-
 Download the dataset files here:
   * [Training and validation images [13GB]](https://data.deic.dk/shared/2fd47962a38e2a70570f3be027cea57f)
       * Running `md5sum fungi_train_val.tgz` on the tgz file should produce `df2b2980835668ed1d9a0e286e4bdadd`
