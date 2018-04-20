@@ -113,7 +113,7 @@ Download the dataset files here:
   * [Training and validation images [13GB]](https://svampe.databasen.org)
       * Alternate links for different parts of the world:
           * TBD 
-      * Running `md5sum fungi_train_val.tgz` on the tgz file should produce `ebe7423426345539550f6f6b49a6c4d2`
+      * Running `md5sum fungi_train_val.tgz` on the tgz file should produce `df2b2980835668ed1d9a0e286e4bdadd`
       * Images have a max dimension of 1024px and have been converted to JPEG format
       * Untaring the images creates a directory structure like `images/category/image.jpg`. This may take a while.
 
