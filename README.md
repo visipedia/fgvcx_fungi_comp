@@ -13,7 +13,7 @@ We are using Kaggle to host the leaderboard. Checkout the competition page [here
 |||
 |------|---------------|
 Data Released|April 1, 2018|
-Submission Deadline|June 4, 2018|
+Submission Deadline|June 11, 2018|
 Winners Announced|June  22, 2018|
 
 ## Details
