@@ -121,6 +121,6 @@ Download the dataset files here:
   * [Training and validation annotations [2.9MB]](https://labs.gbif.org/fgvcx/2018/train_val_annotations.tgz)
       * Running `md5sum train_val_annotations.tgz` on the tgz file should produce `c3c0f1b8a8d0b60619c43d9c89bdbc7e`
   
-  * [Testing image information [92KB]](https://data.deic.dk/shared/c899715d20e2e80063ced63d9cfec9c3)
-      * Running `md5sum test_information.tgz` on the tgz file should produce `2f8a8f361e59d27d9ce4c96f4dec3817`
+  * [Testing image information [48KB]](https://labs.gbif.org/fgvcx/2018/test_information.tgz)
+      * Running `md5sum test_information.tgz` on the tgz file should produce `d488c25d00f44d5947e8fd3ba8ba9194`
 
