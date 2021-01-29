@@ -121,6 +121,6 @@ Download the dataset files here:
   * [Training and validation annotations [2.9MB]](https://labs.gbif.org/fgvcx/2018/train_val_annotations.tgz)
       * Running `md5sum train_val_annotations.tgz` on the tgz file should produce `c3c0f1b8a8d0b60619c43d9c89bdbc7e`
   
-  * [Testing image information [48KB]](https://labs.gbif.org/fgvcx/2018/test_information.tgz)
-      * Running `md5sum test_information.tgz` on the tgz file should produce `d488c25d00f44d5947e8fd3ba8ba9194`
+  * [Testing image information [868KB]](https://raw.githubusercontent.com/visipedia/fgvcx_fungi_comp/master/data/test.json)
+      * Running `md5sum test.json` on the JSON file should produce `9b36dd4a5b975a0c9cb144cc87a82323`
 
