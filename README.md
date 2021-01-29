@@ -122,5 +122,5 @@ Download the dataset files here:
       * Running `md5sum train_val_annotations.tgz` on the tgz file should produce `c3c0f1b8a8d0b60619c43d9c89bdbc7e`
   
   * [Testing image information [90K]](https://raw.githubusercontent.com/visipedia/fgvcx_fungi_comp/master/data/test_information.tgz)
-      * Running `md5sum test.json` on the JSON file should produce `8c4bc9c9a0e3d6f1c1fd24ee4141c86f`
+      * Running `md5sum test_information.tgz` on the tgz file should produce `8c4bc9c9a0e3d6f1c1fd24ee4141c86f`
 
